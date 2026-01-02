@@ -717,3 +717,8 @@ void LocalPlayer::manageAutoloot(const std::map<uint16_t, std::string>& items, b
         }
     }
 }
+
+void LocalPlayer::updateKillTracker(std::string name, uint16_t lookType, uint8_t lookHead, uint8_t lookBody, uint8_t lookLegs, uint8_t lookFeet, uint8_t addons, uint8_t corpseSize, const  std::vector<std::tuple<std::string, ItemPtr>> items)
+{
+    callLuaField("onUpdateKillTracker", name, lookType, lookHead, lookBody, lookLegs, lookFeet, addons, corpseSize, items);
+}
