@@ -1,0 +1,9 @@
+Module
+  name: game_autoloot
+  description: Mostra o loot coletado na tela
+  author: Leonardo
+  website: none
+  sandboxed: true
+  scripts: [ autoloot ]
+  @onLoad: init()
+  @onUnload: terminate()

@@ -1,0 +1,164 @@
+MainWindow
+  id: lootWindow
+  focusable: false
+  draggable: false
+  phantom: false
+  anchors.top: parent.top
+  anchors.left: parent.right
+  anchors.right: parent.left
+  anchors.right: parent.verticalCenter
+
+  Item
+    id: loot1
+    image-color: alpha
+    anchors.top: parent.top
+    margin-top: -29
+    anchors.horizontalCenter: parent.horizontalCenter
+
+  Item
+    id: count1
+    image-color: alpha
+    anchors.top: parent.top
+    margin-top: -22
+    margin-left: 8
+    anchors.horizontalCenter: parent.horizontalCenter
+
+  Item
+    id: loot2
+    image-color: alpha
+    anchors.top: parent.top
+    margin-top: -29
+    anchors.left: loot1.right
+
+  Item
+    id: count2
+    image-color: alpha
+    anchors.top: parent.top
+    anchors.left: count1.right
+    margin-top: -22
+
+  Item
+    id: loot3
+    image-color: alpha
+    anchors.top: parent.top
+    margin-top: -29
+    anchors.left: loot2.right
+
+  Item
+    id: count3
+    image-color: alpha
+    anchors.top: parent.top
+    anchors.left: count2.right
+    margin-top: -22
+
+  Item
+    id: loot4
+    image-color: alpha
+    anchors.top: parent.top
+    margin-top: -29
+    anchors.left: loot3.right
+
+  Item
+    id: count4
+    image-color: alpha
+    anchors.top: parent.top
+    anchors.left: count3.right
+    margin-top: -22
+
+  Item
+    id: loot5
+    image-color: alpha
+    anchors.top: parent.top
+    margin-top: -29
+    anchors.left: loot4.right
+
+  Item
+    id: count5
+    image-color: alpha
+    anchors.top: parent.top
+    anchors.left: count4.right
+    margin-top: -22
+
+  Item
+    id: loot6
+    image-color: alpha
+    anchors.top: parent.top
+    margin-top: -29
+    anchors.left: loot5.right
+
+  Item
+    id: count6
+    image-color: alpha
+    anchors.top: parent.top
+    anchors.left: count5.right
+    margin-top: -22
+
+  Item
+    id: loot7
+    image-color: alpha
+    anchors.top: parent.top
+    margin-top: -29
+    anchors.left: loot6.right
+
+  Item
+    id: count7
+    image-color: alpha
+    anchors.top: parent.top
+    anchors.left: count6.right
+    margin-top: -22
+
+  Item
+    id: loot8
+    image-color: alpha
+    anchors.top: parent.top
+    margin-top: -29
+    anchors.left: loot7.right
+
+  Item
+    id: count8
+    image-color: alpha
+    anchors.top: parent.top
+    anchors.left: count7.right
+    margin-top: -22
+
+  Item
+    id: loot9
+    image-color: alpha
+    anchors.top: parent.top
+    margin-top: -29
+    anchors.left: loot8.right
+
+  Item
+    id: count9
+    image-color: alpha
+    anchors.top: parent.top
+    anchors.left: count8.right
+    margin-top: -22
+
+  Item
+    id: loot10
+    image-color: alpha
+    anchors.top: parent.top
+    margin-top: -29
+    anchors.left: loot9.right
+
+  Item
+    id: count10
+    image-color: alpha
+    anchors.top: parent.top
+    anchors.left: count9.right
+    margin-top: -22
+
+  Item
+    id: loot11
+    image-color: alpha
+    anchors.top: parent.top
+    margin-top: -29
+    anchors.left: loot10.right
+
+  Item
+    id: count11
+    image-color: alpha
+    anchors.top: parent.top
+    anchors.left: count10.right
+    margin-top: -22
